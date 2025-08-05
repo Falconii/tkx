@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "build_falconi": "npx -p @angular/cli@18 ng build --base-href https://falconii.github.io/tkx/ && copy docs\\browser\\index.html docs\\browser\\404.html ",
     "start": "npx -p @angular/cli@18 ng serve",
     "rede_local": "npx -p @angular/cli@18 ng serve --host 0.0.0.0 --port 4200",
     "build": "ng build",
